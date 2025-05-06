@@ -7,60 +7,71 @@
   <style>
     body {
       background-color: #0c1d30;
-      color: white;
       font-family: Arial, sans-serif;
-      text-align: center;
       margin: 0;
       padding: 0;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
     }
 
     h1 {
-      font-size: 3em;
-      margin-top: 80px;
+      font-size: 3.5em;
+      font-weight: bold;
+      margin: 0;
     }
 
     p {
-      font-size: 1.2em;
+      font-size: 1.1em;
       color: #ccc;
-      margin-top: -10px;
+      margin: 10px 0 40px 0;
     }
 
-    nav {
-      margin-top: 40px;
+    .buttons {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
     }
 
-    nav a {
-      text-decoration: none;
+    .buttons a {
       background-color: #d3d3d3;
       color: black;
-      padding: 12px 24px;
+      text-decoration: none;
+      padding: 14px 20px;
       border-radius: 6px;
-      margin: 0 15px;
       font-weight: bold;
+      text-align: center;
+      min-width: 300px;
     }
 
     footer {
       position: fixed;
       left: 20px;
       bottom: 10px;
-      color: #ccc;
       font-size: 0.9em;
+      color: #ccc;
       text-align: left;
     }
   </style>
 </head>
 <body>
+
   <h1>FEBRABAN POWER BI</h1>
   <p>Painéis estratégicos interativos para decisão institucional</p>
 
-  <nav>
+  <div class="buttons">
     <a href="ocupacoes.html">Panorama de RH, Jurídico Trabalhista e Sindical</a>
-    <a href="estatisticas.html">Principais estatísticas</a>
-  </nav>
+    <a href="estatisticas.html">Estatísticas</a>
+  </div>
 
   <footer>
     &copy; 2025 FEBRABAN<br />
     Portal de Dashboards Estratégicos
   </footer>
+
 </body>
 </html>
