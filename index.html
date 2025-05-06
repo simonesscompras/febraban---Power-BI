@@ -1,67 +1,74 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Febraban Power BI</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #0c2238;
+      background-color: #0c1d30;
       color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
       margin: 0;
       padding: 0;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
     }
-    .header {
-      text-align: center;
+    h1 {
+      font-size: 3em;
       margin-top: 60px;
     }
-    .header h1 {
-      font-size: 3em;
-      margin-bottom: 10px;
-    }
-    .header p {
+    p {
       font-size: 1.2em;
-      color: #cfd8dc;
+      color: #ccc;
     }
-    .nav-buttons {
+    nav {
       margin-top: 30px;
     }
-    .nav-buttons a {
+    nav a {
+      text-decoration: none;
       background-color: #d3d3d3;
       color: black;
-      text-decoration: none;
-      font-weight: bold;
-      margin: 0 15px;
-      padding: 12px 25px;
+      padding: 10px 20px;
       border-radius: 6px;
-      transition: background-color 0.3s;
+      margin: 0 10px;
+      font-weight: bold;
     }
-    .nav-buttons a:hover {
-      background-color: #b0bec5;
+    .botoes {
+      margin-top: 120px;
+      display: flex;
+      justify-content: center;
+      gap: 80px;
+    }
+    .botao {
+      background-color: #d3d3d3;
+      color: black;
+      padding: 20px 50px;
+      font-size: 1em;
+      border-radius: 8px;
+      font-weight: bold;
     }
     footer {
-      position: absolute;
+      position: fixed;
+      left: 20px;
       bottom: 10px;
-      left: 15px;
-      font-size: 0.8em;
-      color: #cfd8dc;
+      color: #ccc;
+      font-size: 0.9em;
       text-align: left;
     }
   </style>
 </head>
 <body>
-  <div class="header">
-    <h1>FEBRABAN POWER BI</h1>
-    <p>Painéis estratégicos interativos para decisão institucional</p>
-  </div>
+  <h1>FEBRABAN POWER BI</h1>
+  <p>Painéis estratégicos interativos para decisão institucional</p>
 
-  <div class="nav-buttons">
+  <nav>
     <a href="ocupacoes.html">Panorama de RH, Jurídico Trabalhista e Sindical</a>
-    <a href="index.html">PRINCIPAIS ESTATÍSTICAS</a>
+    <a href="estatisticas.html">Principais Estatísticas</a>
+  </nav>
+
+  <div class="botoes">
+    <div class="botao">BOTÃO 1</div>
+    <div class="botao">BOTÃO 2</div>
   </div>
 
   <footer>
