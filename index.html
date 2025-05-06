@@ -1,73 +1,65 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FEBRABAN POWER BI</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #0c1f35;
-      color: #ffffff;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      min-height: 100vh;
-    }
-    header {
-      text-align: center;
-      margin-bottom: 40px;
-    }
-    header h1 {
-      font-size: 3em;
-      margin-bottom: 10px;
-    }
-    header h2 {
-      font-weight: 400;
-      color: #ccc;
-      font-size: 1.2em;
-    }
-    .links {
-      display: flex;
-      gap: 15px;
-      margin-bottom: 50px;
-    }
-    .links a {
-      text-decoration: none;
-      background-color: #d9d9d9;
-      color: #000;
-      padding: 10px 20px;
-      border-radius: 8px;
-      font-weight: bold;
-      transition: background 0.3s;
-    }
-    .links a:hover {
-      background-color: #aaa;
-    }
-    footer {
-      position: absolute;
-      bottom: 10px;
-      left: 20px;
-      font-size: 0.9em;
-      color: #ccc;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Febraban Power BI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0c2238;
+            color: white;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        h1 {
+            font-size: 3em;
+            margin-top: 60px;
+        }
+        h2 {
+            color: #dcdcdc;
+            font-weight: 300;
+            margin-bottom: 40px;
+        }
+        .button-container {
+            margin-top: 50px;
+        }
+        .button {
+            background-color: #d3d3d3;
+            color: black;
+            font-weight: bold;
+            padding: 12px 25px;
+            margin: 10px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        .button:hover {
+            background-color: #a9a9a9;
+        }
+        footer {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            font-size: 0.9em;
+            color: #ccc;
+        }
+    </style>
 </head>
 <body>
-  <header>
     <h1>FEBRABAN POWER BI</h1>
     <h2>Painéis estratégicos interativos para decisão institucional</h2>
-  </header>
-  <div class="links">
-    <a href="ocupacoes.html">Painel de Ocupações em Tecnologia</a>
-    <a href="caged.html">Painel CAGED</a>
-    <a href="exemplo.html">Dashboard Exemplo</a>
-  </div>
-  <footer>
-    &copy; 2025 FEBRABAN<br>
-    Portal de Dashboards Estratégicos
-  </footer>
+
+    <div class="button-container">
+        <a href="ocupacoes.html"><button class="button">Panorama de RH, Jurídico Trabalhista e Sindical</button></a>
+        <a href="estatisticas.html"><button class="button">PRINCIPAIS ESTATÍSTICAS</button></a>
+    </div>
+
+    <footer>
+        &copy; 2025 FEBRABAN <br>
+        Portal de Dashboards Estratégicos
+    </footer>
 </body>
 </html>
